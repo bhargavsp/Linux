@@ -46,7 +46,25 @@ contains all the config files. only root users can access these files but some f
 *EX:* passwd, shadow, group, sudoers
 
 **dev**
-Devices that are connected to the particular server can be seen here
+Devices that are connected to the particular server can be seen here 
+
+**Proc**
+for every task we execute in the linux there will be a process ID created, here all the process ID's are created
+cpuinfo file: cores of CPU, architecture everything about the current CPU
+
+**Lib**
+files available in lib dir can only be used by the operating system
+
+**temp**
+temperory files that we can create and delete after sometime, those files can be stored here, these folder can be accesses by all the users
+
+**Var**
+all the logs can be seen here, and the system users home directory can be seen here
+
+**opt**
+By default it is empty directory, all the 3rd party softwares can be installed here, it can be accessed only by root user.
+
+
 
 ### Types of users in the LINUX OS
 
