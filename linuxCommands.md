@@ -1,6 +1,7 @@
 
 ssh
 chmod
+
 | command | Description | Example Command |
 | --- | --- |
 | ssh | it is used to ssh into the server (secure shell) |
