@@ -64,6 +64,7 @@ all the logs can be seen here, and the system users home directory can be seen h
 **opt**
 By default it is empty directory, all the 3rd party softwares can be installed here, it can be accessed only by root user.
 
+![image](https://github.com/bhargavsp/Linux/assets/45779321/f4e465f4-b32b-4549-b2f4-17a81afb3893)
 
 
 ### Types of users in the LINUX OS
@@ -73,5 +74,5 @@ normal user: root user creates normal users and each user have there own home
 System user: system users are automatically created when installing the softwares
 *EX*: Apache HTTP server --> apache user --> one of the system user 
 
-
+ 
 
