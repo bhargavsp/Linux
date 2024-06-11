@@ -24,19 +24,41 @@ There is a No way logging into the server but we can take the backup of the enti
 we can use the *uname* command and if the output is Linux, then we can say that we connected to the linux server
 
 ### How to create a directory with some custom permissions?
-
-
+if we create an directory using the mode while creating we can give the custom permissions
+*Ex:* mkdir -m 700 devops 
 
 ### how to install the packages in linux without interactive mode(means without asking yes or no while installing the packages/softwares in linux)?
+We have to use the ***-y*** option while executing the linux command
+*Ex:* yum install tree -y
+
+### Difference between *sudo su* and *sudo su -*?
+***"su"*** gives you root powers, but keeps your regular user environment
+***"su -"*** gives you root's environment also---just as if you had logged in as root.
 
 
+### How to know the directories and files in the linux file system?
+ls -l and there if the file permissions ***starts with the d then its directory*** else if it ***starts with - it is a file***
+*Ex:* drwxr --> directory, -rwxr --> file
 
+### what is *-ltr* options in the *ls* command
+*l means long listing*
+*t means time stamped*
+*r means reverse order*
 
+### How to create a folder/file hidden in linux
+using the ***. (dot)*** before the file/folder name while creating
 
+### what is Inode in linux?
+Inode is a data structure, It can be used to store the *file/dir Info* except the file or directory name. Basically it is the Unique number, These file and folder names are for the user use, linux uses the Inode to remember and access the file and folder 
 
+### what is the format of file size in the linux?
+By default all the files and folders size is shown in the bytes
 
+### how to search all the empty files in the current directory?
+By using the *find* command ***find . -type f -empty***  
 
-
+### how to search all the empty directories in the current directory?
+By using the *find* command ***find . -type d -empty***  
 
 
 
