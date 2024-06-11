@@ -25,3 +25,11 @@ SuSe Linux
 Fedora etc.....
 
 
+## LINUX File STRUCTURE
+
+
+**/ is rootDirectory/parentDirectory in Linux**
+
+Folder --> is tcalled the Directory in the Linux/Mac
+
+
