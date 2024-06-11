@@ -8,6 +8,9 @@ Binary files in *bin* directory can be accessed by *all the users* including the
 Binary files in *sbin* directory can be accessed only by only *root user*
 
 
+***Learn the Linux file system*** 
+
+
 
 
 
