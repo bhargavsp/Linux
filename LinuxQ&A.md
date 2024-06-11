@@ -11,6 +11,9 @@ Binary files in *sbin* directory can be accessed only by only *root user*
 ***Learn the Linux file system*** 
 
 
+***There should be no spaces in the AWS Key pair***
+
+
 
 
 
