@@ -14,6 +14,22 @@ Binary files in *sbin* directory can be accessed only by only *root user*
 ***There should be no spaces in the AWS Key pair***
 
 
+### what happens if we give the space in b/w the names while creating the files and folders?
+It Linux the space is considered as the separator and creates 2 files/folders instead of one single file name
+
+### what if key pair is lost for the server in aws, can we login into that or not?
+There is a No way logging into the server but we can take the backup of the entire server and restore it into an another server.
+
+### how to check whether we connected to linux server or not?
+we can use the *uname* command and if the output is Linux, then we can say that we connected to the linux server
+
+
+| command | Description | Example Command |
+| ----- | ----- |
+| ssh | it is used to ssh into the server (secure shell) |
+| chmod | used to *Give* or *Change* the permissions of a file or a folder
+
+
 
 
 
