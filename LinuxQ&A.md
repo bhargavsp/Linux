@@ -32,8 +32,8 @@ We have to use the ***-y*** option while executing the linux command
 *Ex:* yum install tree -y
 
 ### Difference between *sudo su* and *sudo su -*?
-***"su"*** gives you root powers, but keeps your regular user environment
-***"su -"*** gives you root's environment also---just as if you had logged in as root.
+***"su"*** gives you root powers, but keeps your current user environment and home diretory and current user configurations
+***"su -"*** switchs to the root user and home dir environment, root user configurations, root home directory---just as if you had logged in as root.
 
 
 ### How to know the directories and files in the linux file system? 
@@ -59,6 +59,9 @@ By using the *find* command ***find . -type f -empty***
 
 ### how to search all the empty directories in the current directory?
 By using the *find* command ***find . -type d -empty***  
+
+### what is root user home dir?
+It is */root* not the / or /home/root
 
 
 
