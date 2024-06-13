@@ -73,4 +73,5 @@ It is *022* the default permissions
 ### how to change the files/dir owner and group permissions with a single command?
 yes we can change with the ***chown ec2-user:ec2-user devops.txt***
 
-
+### why do we use link?
+lets take a use-case scenario --> after deploying a application we get logs, and those cannot be accessed by the devloper because those were stored in the /var/logs/apache.log folder which cannot be accesed by normal user except the root user, so to access the logs we create a soft link and store the file in the temp/ directory 
