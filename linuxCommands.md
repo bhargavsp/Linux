@@ -55,8 +55,11 @@
 | **`less`** | display the lines in file in forward/backward direction line-by-line | less devops.txt |
 | **`sort -r`** | sort by alphabetical order in reverse | sort -r devops.txt |
 | tr [a-z] [A-Z] | transcalting lower to upper case all letters in file | tr | 
-| sed -n | print content from the file | sed -n "86,90p" sudoers |
-
+| sed -n | print content from the file sed(stream editor) means output going to update not update the whole original file | sed -n "86,90p" devops.txt |
+| sed "s/red/blue" devops.txt | prints the output with replaced content of first occourance red to blue word | |
+| sed "s/red/blue/g" devops.txt | prints the output with replaced content globally changes in file from red to blue word | |
+| sed -i "s/red/blue" devops.txt | edits the whole original file also | |
+| grep | which stands for *global regular expression print* , processes text lineby line and prints all the lines matches specified pattern | |
 
 ### User Commands
 
@@ -70,6 +73,16 @@
 | :---: | :---: | :---: |
 | **`yum install`** | Install packages in the ***redhat/centOs*** | yum install tree |
 | **`yum install -y`** | Install packages in the ***Interactive mode in redhat/centOs*** | yum install tree -y|
+
+
+### system resources commands
+
+| who | displays information about all users currently on the local system | |
+| who -H | *H option* displays the heading of the columns displayed | |
+| w | it gives the complete information of the server up-time, user logged in, load for 1, 5, 15min on the server, commands excited by each user etc...
+
+### process management commands
+
 
 Addtional Material:
 ![image](https://github.com/bhargavsp/Linux/assets/45779321/ae0a23dd-b4e9-4067-9b36-715e905e4950)
