@@ -29,6 +29,9 @@
 | find . -iname | *i* option is used to ignore the case sensitive and search | find . -iname Mithun.txt | 
 | umask | user mask value is fixed value given to root or normal user to create a file or directory, so only the specified permissions are given to the files/direcotries while the particular user is creating | |
 | **`chmod`** | used to change the permissions of the file | chmod 777 devops.txt |
+| **`chown`** | used to change the owner permissions of the file | chown root devops.txt |
+| **`chgrp`** | used to change the group permissions of a file/directory | chgrp ec2-user devops.txt |
+| chgrp -R | To change the group name of the file/folders *RECURSIVELY* means changing all the group of the files/directories | chgrp -R ec2-user devops.txt |
 
 
 ### User Commands
