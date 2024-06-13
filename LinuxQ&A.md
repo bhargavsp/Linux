@@ -67,7 +67,7 @@ It is */root* not the / or /home/root
 for *file 666*
 for *directory 777*
 
-### default permissions for the users root or normal user?
+### default umask permissions for the users root or normal user?
 It is *022* the default permissions
 
 
