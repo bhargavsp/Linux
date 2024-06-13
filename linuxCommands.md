@@ -6,7 +6,7 @@
 | **`chmod`**   | used to ***Give*** or ***Change*** the permissions of a file or a folder |  |
 
 ### File mangement commands
-
+ 
 | Command | Usage | Example command |
 | :---: | :---: | :---: |
 | **`cd`** | takes to the Home directory | cd |
