@@ -60,6 +60,7 @@
 | sed "s/red/blue/g" devops.txt | prints the output with replaced content globally changes in file from red to blue word | |
 | sed -i "s/red/blue" devops.txt | edits the whole original file also | |
 | grep | which stands for *global regular expression print* , processes text lineby line and prints all the lines matches specified pattern | |
+| wc -l| word count | |
 
 ### User Commands
 
@@ -80,7 +81,17 @@
 | who | displays information about all users currently on the local system | |
 | who -H | *H option* displays the heading of the columns displayed | |
 | w | it gives the complete information of the server up-time, user logged in, load for 1, 5, 15min on the server, commands excited by each user etc...
-
+| uptime | It displays the uptime of the server | uptime |
+| users | dislays the list of currently logged in at this time | |
+| stress | It give the stress incresases load at the 8 cores to the system | stres -c 8 --timout 10|
+| whereis | path/locate the binary, source and manual page files for a command | whereis ls|
+| date | we can display the timezone and time of the server and also set it | date -s "20240509" |
+| timedatectl | control and set the timezone and date | |
+| df | know external devices connected and the size of the harddisk | df -h |
+| du | it estimates and shows the file space usage | du -s jenkins/ |
+| hostname name| gives the hostname of the server and aslo can change the srever name | hostname bhargav.com |
+| hostname -i | displays the public IP of the server | |
+| ifconfig/ip a | gives the IP address and some info about the server | |
 ### process management commands
 
 
