@@ -92,4 +92,8 @@ type *w* command in linux if the load average is more than 1.0 then the cpu is 1
 the cpu utilization is based on the no. of cores cpu
 *ex:* if it 8 core CPU, 6.9 load is very less and cpu is not 100% utilized
 
+### what happens if we change the hostname of the server?
+if we type hostname -i it displays the host ip address of the linked new hostname
+*EX:* hostname google.com
+
 
