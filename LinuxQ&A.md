@@ -70,6 +70,7 @@ for *directory 777*
 ### default umask permissions for the users root or normal user?
 It is *022* the default permissions
 
-
+### how to change the files/dir owner and group permissions with a single command?
+yes we can change with the ***chown ec2-user:ec2-user devops.txt***
 
 
