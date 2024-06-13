@@ -74,5 +74,8 @@ normal user: root user creates normal users and each user have there own home
 System user: system users are automatically created when installing the softwares
 *EX*: Apache HTTP server --> apache user --> one of the system user 
 
- 
+
+### Some more linux commands
+ ![image](https://github.com/bhargavsp/Linux/assets/45779321/fd7b1d53-0036-4a56-bc0d-190380d508bd)
+
 
