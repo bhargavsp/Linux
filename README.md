@@ -50,7 +50,7 @@ Devices that are connected to the particular server can be seen here
 
 **Proc**
 for every task we execute in the linux there will be a process ID created, here all the process ID's are created
-cpuinfo file: cores of CPU, architecture everything about the current CPU
+cpuinfo file: cores of CPU, architecture everything about the current CPU 
 
 **Lib**
 files available in lib dir can only be used by the operating system
