@@ -63,6 +63,13 @@ By using the *find* command ***find . -type d -empty***
 ### what is root user home dir?
 It is */root* not the / or /home/root
 
+### default permissions of the file and directory?
+for *file 666*
+for *directory 777*
+
+### default permissions for the users root or normal user?
+It is *022* the default permissions
+
 
 
 
