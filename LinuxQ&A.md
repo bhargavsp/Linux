@@ -75,3 +75,12 @@ yes we can change with the ***chown ec2-user:ec2-user devops.txt***
 
 ### why do we use link?
 lets take a use-case scenario --> after deploying a application we get logs, and those cannot be accessed by the devloper because those were stored in the /var/logs/apache.log folder which cannot be accesed by normal user except the root user, so to access the logs we create a soft link and store the file in the temp/ directory 
+
+### how to make the terminal/ SSH connection acive for long time?
+create an *config file* in local laptop
+vi ~/.ssh/config
+![image](https://github.com/bhargavsp/Linux/assets/45779321/2852a047-6485-4282-84c2-cbd8dbdc1940)
+
+### Nano editor commands
+ctrl+o --> saving
+ctrl+x --> close
