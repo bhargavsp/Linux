@@ -36,7 +36,7 @@ We have to use the ***-y*** option while executing the linux command
 ***"su -"*** gives you root's environment also---just as if you had logged in as root.
 
 
-### How to know the directories and files in the linux file system?
+### How to know the directories and files in the linux file system? 
 ls -l and there if the file permissions ***starts with the d then its directory*** else if it ***starts with - it is a file***
 *Ex:* drwxr --> directory, -rwxr --> file
 
