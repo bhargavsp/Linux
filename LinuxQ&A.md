@@ -84,3 +84,12 @@ vi ~/.ssh/config
 ### Nano editor commands
 ctrl+o --> saving
 ctrl+x --> close
+
+### how to say cpu is 100% utilized in server
+type *w* command in linux if the load average is more than 1.0 then the cpu is 100% utilized in general
+
+### realtime scenario --> if the server load average is 6.9 still the cpu is not 100% why?
+the cpu utilization is based on the no. of cores cpu
+*ex:* if it 8 core CPU, 6.9 load is very less and cpu is not 100% utilized
+
+
