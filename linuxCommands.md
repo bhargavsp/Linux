@@ -32,7 +32,9 @@
 | **`chown`** | used to change the owner permissions of the file | chown root devops.txt |
 | **`chgrp`** | used to change the group permissions of a file/directory | chgrp ec2-user devops.txt |
 | chgrp -R | To change the group name of the file/folders *RECURSIVELY* means changing all the group of the files/directories | chgrp -R ec2-user devops.txt |
-
+| **`cp filename/direname targetdir`** | To copy the files/directory form one dir to another directory | cp devops.txt jenkins/ |
+| cp *.txt jenkins/ | copy all the .txt files from current dir to jenkins dir | |
+| **`mv oldfilename newfilename`** | rename the file name | mv test.txt mss.txt | 
 
 ### User Commands
 
