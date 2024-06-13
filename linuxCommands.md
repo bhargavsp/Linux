@@ -28,6 +28,7 @@
 | find / -type d -empty | / is the complete file system but it works only at root user level, we cannot access entire file system as a normal user | |
 | find . -iname | *i* option is used to ignore the case sensitive and search | find . -iname Mithun.txt | 
 | umask | user mask value is fixed value given to root or normal user to create a file or directory, so only the specified permissions are given to the files/direcotries while the particular user is creating | |
+| **`chmod`** | used to change the permissions of the file | chmod 777 devops.txt |
 
 
 ### User Commands
