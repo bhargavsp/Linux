@@ -35,6 +35,11 @@
 | **`cp filename/direname targetdir`** | To copy the files/directory form one dir to another directory | cp devops.txt jenkins/ |
 | cp *.txt jenkins/ | copy all the .txt files from current dir to jenkins dir | |
 | **`mv oldfilename newfilename`** | rename the file name | mv test.txt mss.txt | 
+| **`file`** | check and let us know what type of content is there in the file, it is used to check what type of file for the user | file devops.txt | 
+| **`WC`** | word count it tells how many lines, words, characters are there in a file | wc devops.txt | 
+| **`ln`** | its a link we have hard link and soft link in this |  
+| Hard link --> ln oriFile linkFile | only for files we can create hard link, same permissions for both files, inode number is same | ln devops.log backup.log
+| soft link --> ln -s oriFile linkFile| files/dir we can create soft link, each file has there own permissions, inode number is diff | ln -s devops.log backup.log
 
 ### User Commands
 
