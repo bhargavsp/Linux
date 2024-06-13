@@ -41,6 +41,23 @@
 | Hard link --> ln oriFile linkFile | only for files we can create hard link, same permissions for both files, inode number is same | ln devops.log backup.log
 | soft link --> ln -s oriFile linkFile| files/dir we can create soft link, each file has there own permissions, inode number is diff | ln -s devops.log backup.log
 
+### Text reading/ display commands
+| **`se nu`** | to display the line numbers in the file when opened in vi editor in command mode | :se nu |
+| se nonu | not to display the line numbers in the file | :se nonu |
+| /text | find the text in the file in vi editor in command mode | /hello |
+| echo | Used to print the output | echo hello |
+| cat -n | display the line numbers next to the lines in file | cat -n devops.txt |
+| head filename | prints first 10 lines | |
+| head -15 filename | prints first 15 lines | |
+| head -n 15 filename | prints first 15 lines with number next to it | |
+| tail -f filename | also print the last updated 10 lines | | 
+| **`more`** | displays the lines in file in forward/backward direction one screen at a time | more devops.txt | 
+| **`less`** | display the lines in file in forward/backward direction line-by-line | less devops.txt |
+| **`sort -r`** | sort by alphabetical order in reverse | sort -r devops.txt |
+| tr [a-z] [A-Z] | transcalting lower to upper case all letters in file | tr | 
+| sed -n | print content from the file | sed -n "86,90p" sudoers |
+
+
 ### User Commands
 
 | Command | Usage | Example command |
