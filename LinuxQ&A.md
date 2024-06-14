@@ -35,6 +35,8 @@ We have to use the ***-y*** option while executing the linux command
 ***"su"*** gives you root powers, but keeps your current user environment and home diretory and current user configurations
 ***"su -"*** switchs to the root user and home dir environment, root user configurations, root home directory---just as if you had logged in as root.
 
+### diff between tar and zip?
+tar archieve comppress to veyr less size than the zip
 
 ### How to know the directories and files in the linux file system? 
 ls -l and there if the file permissions ***starts with the d then its directory*** else if it ***starts with - it is a file***
