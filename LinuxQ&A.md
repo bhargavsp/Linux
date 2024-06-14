@@ -98,4 +98,6 @@ the cpu utilization is based on the no. of cores cpu
 if we type hostname -i it displays the host ip address of the linked new hostname
 *EX:* hostname google.com
 
+### how to know all the users in the server?
+cat /etc/passwd
 
