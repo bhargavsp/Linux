@@ -136,3 +136,8 @@ we add the user to the /etc/sudoers file to give the admin access to the normal 
 
 ### what is visudo command in linux?
 To edit and lock the particular, with not being giving access to the other users to edit/update the file
+
+### how to change or use the normal user instead of default ec2-user to connect to the ec2 instance?
+Fistly, we should login ino the ec2-user and then modify the ***passwordauthentication yes*** in the /etc/ssh/sshd_config file, so then we can login into the server with the other user credentials apart from the default ec2-user
+
+
