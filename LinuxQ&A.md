@@ -99,5 +99,31 @@ if we type hostname -i it displays the host ip address of the linked new hostnam
 *EX:* hostname google.com
 
 ### how to know all the users in the server?
-cat /etc/passwd
+cat /etc/passwd or ls -l /home
+
+### what happens if we create a user in linux
+it creates an entry in /etc/shadow or passwd or group
+
+### explain the cat /etc/passwd | grep bob output and the output *bob:x:1001:1001::/home/bob:/bin/bash*
+gives the list of users in server and fetches the bob user.
+1001 --> UID (userID)
+
+### where the password is stored for the created users in linux?
+in the /etc/shadow file
+
+### How to add users to the group
+we use the *usermod -g groupname username*
+
+### how to know which group contains how many users/
+lid -g groupname
+
+### what are primary and secondary groups in the linux?
+primary 
+secondary
+
+### how to know the user is locked in linux?
+go to /etc/shadow and check if there is an ***! mark *** next to the password it meant the user is locked
+use *usermod -U username* to unlock the user
+
+
 
