@@ -79,9 +79,15 @@
 | lid -g groupname | list the users in the particular group | lid -g devopsteam |
 | id username | prints the UID, gID, secondary gid | id bob |
 | su username | su means switch user | su bob | 
+| userdel -r username | to delete the user from server | userdel -r bob | 
+| groupdel groupname | to delete group from the server | groupdel groupname |
 
+### Remote access commands
 
-
+| command | Usage | Example command |
+| :---: | :---: | :---: |
+| ssh username@ipaddress/hostname | used to ssh into the server using the public ip address or the hostname | ssh ec2-user@54.158.243.186 |
+|scp | copy files from one server to another server using secure copy | scp filename username@serverip/hostname:path |
 
 ### Installing/Config commands
 
