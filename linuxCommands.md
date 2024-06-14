@@ -78,6 +78,10 @@
 | usermod -aG | to set the primary and seconday usergroups | usermod -aG devopsteam bob |
 | lid -g groupname | list the users in the particular group | lid -g devopsteam |
 | id username | prints the UID, gID, secondary gid | id bob |
+| su username | su means switch user | su bob | 
+
+
+
 
 ### Installing/Config commands
 
@@ -87,6 +91,7 @@
 | **`yum install -y`** | Install packages in the ***Interactive mode in redhat/centOs*** | yum install tree -y|
 
 ### what are attributes in linux
+
 ### system resources commands
 
 | Command | Usage | Example command |
@@ -110,6 +115,10 @@
 | service servicename options| check the service and start/stop etc... | |
 | systemctl options servicename | check the service and start/stop etc... | |
 | last | gives the list of last logged in user in the particular server | |
+| visudo | safely edit the sudoers file | visudo |
+
+
+
 
 ### process management commands
 
