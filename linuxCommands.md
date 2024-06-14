@@ -123,8 +123,12 @@
 | last | gives the list of last logged in user in the particular server | |
 | visudo | safely edit the sudoers file | visudo |
 
+### Hardware related commands
 
-
+| command | usage | Example command |
+| :---: | :---: | :---: |
+| free -h | check the ram consumption in human readable format | |
+| dmidecode | it gives the whole ram and hardware information and type of hardisk used for the server | |
 
 ### process management commands
 
@@ -136,6 +140,18 @@
 | kill | kills the process or signals the process with the signal type/code | kill -9 apache2 |
 | top | displays all the system resources utilization (cpu, ram etc...) | top |
 
+
+### Autoamting/scheduling Tasks commands
+
+| Command | Usage | Example command |
+| :---: | :---: | :---: |
+| crontab -ler | displays the list of crontabs, or edit or delete that are scheduled in the server |  |
+| https://crontab-generator.org/ | website for the crontab generation | |
+| yum install cronie -y| used to install the crontab package| |
+
+![image](https://github.com/bhargavsp/Linux/assets/45779321/bb789f3b-3f19-4bcf-83c1-3a7dcb9b61aa)
+
+
 ### Archive/Data Backup commands
 
 | Command | Usage | Example command |
@@ -144,6 +160,11 @@
 | unzip | unzip the archive folder | unzip devops.zip | 
 | tar -cvf newfilename sourcefile | tar create, verbose, filesystem the folder | tar -cvf abc.tar devops |
 | tar -xvf filename | tar extract, verbose, filesystem | tar -xvf devops.tar | 
+
+
+
+
+
 
 Addtional Material:
 ![image](https://github.com/bhargavsp/Linux/assets/45779321/ae0a23dd-b4e9-4067-9b36-715e905e4950)
