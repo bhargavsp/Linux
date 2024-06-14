@@ -99,7 +99,7 @@ if we type hostname -i it displays the host ip address of the linked new hostnam
 *EX:* hostname google.com
 
 ### how to know all the users in the server?
-cat /etc/passwd or ls -l /home
+cat /etc/passwd or ls -l /home as every normal user have the /home directory created automatically
 
 ### what happens if we create a user in linux
 it creates an entry in /etc/shadow or passwd or group
@@ -125,5 +125,14 @@ secondary
 go to /etc/shadow and check if there is an ***! mark *** next to the password it meant the user is locked
 use *usermod -U username* to unlock the user
 
+### How the user switching works password requirement in the linux?
+su --> switch user
+NU --> NU --> password is required
+NU --> root --> password is required
+Root --> NU --> password not required
 
+### how to provide the admin access/sudo priviliges for the normal users?
+we add the user to the /etc/sudoers file to give the admin access to the normal user
 
+### what is visudo command in linux?
+To edit and lock the particular, with not being giving access to the other users to edit/update the file
