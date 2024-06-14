@@ -83,8 +83,9 @@
 | w | it gives the complete information of the server up-time, user logged in, load for 1, 5, 15min on the server, commands excited by each user etc...
 | uptime | It displays the uptime of the server | uptime |
 | users | dislays the list of currently logged in at this time | |
-| stress | It give the stress incresases load at the 8 cores to the system | stres -c 8 --timout 10|
+| stress | It give the stress incresases load at the 8 cores to the system | stres -c 8 --timeout 10|
 | whereis | path/locate the binary, source and manual page files for a command | whereis ls|
+| whatis | give the small info of a commans | whatis ls |
 | date | we can display the timezone and time of the server and also set it | date -s "20240509" |
 | timedatectl | control and set the timezone and date | |
 | df | know external devices connected and the size of the harddisk | df -h |
@@ -92,8 +93,22 @@
 | hostname name| gives the hostname of the server and aslo can change the srever name | hostname bhargav.com |
 | hostname -i | displays the public IP of the server | |
 | ifconfig/ip a | gives the IP address and some info about the server | |
-### process management commands
+| systemctl list-unit-files | list all the services are running in the linux | |
+| service servicename options| check the service and start/stop etc... | |
+| systemctl options servicename | check the service and start/stop etc... | |
+| last | gives the list of last logged in user in the particular server | |
 
+### process management commands
+| ps | gives the process that are running for current user  | |
+| ps -ef | gives the processes of all the users in the server | |
+| pidos processname | gives the process if of the particular service | pidof bash |
+| kill | kills the process or signals the process with the signal type/code | kill -9 apache2 |
+| top | displays all the system resources utilization (cpu, ram etc...) | top |
+
+### Archive/Data Backup commands
+| zip -r | zipping the foler | Zip -r abc.zip devops |
+| unzip | unzip the archive folder | unzip devops.zip | 
+| tar -cvf newfilename sourcefile | tar create, verbose, filesystem the folder | tar -cvf abc.tar devops |
 
 Addtional Material:
 ![image](https://github.com/bhargavsp/Linux/assets/45779321/ae0a23dd-b4e9-4067-9b36-715e905e4950)
