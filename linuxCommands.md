@@ -70,6 +70,14 @@
 | Command | Usage | Example command |
 | :---: | :---: | :---: |
 | **`sudo su -`** | Used to switch to the ***root user*** in linux | sudo su - |
+| useradd usernmae | to create an user in linux | useradd bob |
+| passwd username | to set the password for the username that is created | passwd bob | 
+| chage username | it is used to set the attributes to the user such as set the limits for the user like mim pass, mac pass, last pass change, pass expir, pass inactive, account expiration data | chage bob |
+| groupadd grpname | to create a group | groupadd devopsteam |
+| usermod -g username | used to add the users to the groups | usermod -g devopteam bob |
+| usermod -aG | to set the primary and seconday usergroups | usermod -aG devopsteam bob |
+| lid -g groupname | list the users in the particular group | lid -g devopsteam |
+| id username | prints the UID, gID, secondary gid | id bob |
 
 ### Installing/Config commands
 
@@ -78,7 +86,7 @@
 | **`yum install`** | Install packages in the ***redhat/centOs*** | yum install tree |
 | **`yum install -y`** | Install packages in the ***Interactive mode in redhat/centOs*** | yum install tree -y|
 
-
+### what are attributes in linux
 ### system resources commands
 
 | Command | Usage | Example command |
