@@ -143,5 +143,17 @@ The swap memory is used when the 100% of the ram is utilized for the ram and it 
 ### how to change or use the normal user instead of default ec2-user to connect to the ec2 instance?
 Fistly, we should login ino the ec2-user and then modify the ***passwordauthentication yes*** in the /etc/ssh/sshd_config file, so then we can login into the server with the other user credentials apart from the default ec2-user
 
+### how to disable the crontab access for all the users expect the root user in server/
+1. create a file called *cron.allow* in /etc/. The server automatically detects the creation of the file and disables the access of crontabs to the users. we can add the user name to the cron.allow to give access to the particular user
+
+### setup the crontab
+To setup the crontab we should first 
+1. install the cronie (yum install cronie -) the crontab package
+2. check the *crond.service* service is running or not by using commands *service crond.service status* if not active it
+3. create the cronjob for the file ***/1 * * * * /home/ec2-user/hello.sh > /home/ec2-user/hello.log 2>&1**
+4. we are creating the cron job and gave the hello.sh file and redirected the output to hello.log file, and also specified what kind of output need to be saved in the log file i.e 2>&1 (means output and error)
+5. file descriptors : 0 --> std input; 1 --> std output; 2 --> std error
+
+
 
 
