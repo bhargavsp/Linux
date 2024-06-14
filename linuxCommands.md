@@ -42,6 +42,9 @@
 | soft link --> ln -s oriFile linkFile| files/dir we can create soft link, each file has there own permissions, inode number is diff | ln -s devops.log backup.log
 
 ### Text reading/ display commands
+
+| Command | Usage | Example command |
+| :---: | :---: | :---: |
 | **`se nu`** | to display the line numbers in the file when opened in vi editor in command mode | :se nu |
 | se nonu | not to display the line numbers in the file | :se nonu |
 | /text | find the text in the file in vi editor in command mode | /hello |
@@ -62,7 +65,7 @@
 | grep | which stands for *global regular expression print* , processes text lineby line and prints all the lines matches specified pattern | |
 | wc -l| word count | |
 
-### User Commands
+### User/Group administration Commands
 
 | Command | Usage | Example command |
 | :---: | :---: | :---: |
@@ -78,6 +81,8 @@
 
 ### system resources commands
 
+| Command | Usage | Example command |
+| :---: | :---: | :---: |
 | who | displays information about all users currently on the local system | |
 | who -H | *H option* displays the heading of the columns displayed | |
 | w | it gives the complete information of the server up-time, user logged in, load for 1, 5, 15min on the server, commands excited by each user etc...
@@ -99,6 +104,9 @@
 | last | gives the list of last logged in user in the particular server | |
 
 ### process management commands
+
+| Command | Usage | Example command |
+| :---: | :---: | :---: |
 | ps | gives the process that are running for current user  | |
 | ps -ef | gives the processes of all the users in the server | |
 | pidos processname | gives the process if of the particular service | pidof bash |
@@ -106,9 +114,13 @@
 | top | displays all the system resources utilization (cpu, ram etc...) | top |
 
 ### Archive/Data Backup commands
+
+| Command | Usage | Example command |
+| :---: | :---: | :---: |
 | zip -r | zipping the foler | Zip -r abc.zip devops |
 | unzip | unzip the archive folder | unzip devops.zip | 
 | tar -cvf newfilename sourcefile | tar create, verbose, filesystem the folder | tar -cvf abc.tar devops |
+| tar -xvf filename | tar extract, verbose, filesystem | tar -xvf devops.tar | 
 
 Addtional Material:
 ![image](https://github.com/bhargavsp/Linux/assets/45779321/ae0a23dd-b4e9-4067-9b36-715e905e4950)
