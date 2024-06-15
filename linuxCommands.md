@@ -128,7 +128,7 @@
 | :---: | :---: | :---: |
 | **`yum install`** | Install packages in the ***redhat/centOs*** | yum install tree |
 | **`yum install -y`** | Install packages in the ***Interactive mode in redhat/centOs*** | yum install tree -y|
-| netstat -r | 
+| netstat -r | dispplays the route table | |
 
 ### what are attributes in linux
 
