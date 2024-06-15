@@ -63,7 +63,11 @@
 | sed "s/red/blue/g" devops.txt | prints the output with replaced content globally changes in file from red to blue word | |
 | sed -i "s/red/blue" devops.txt | edits the whole original file also | |
 | grep | which stands for *global regular expression print* , processes text lineby line and prints all the lines matches specified pattern | |
+| grep -i "command line" /etc/ssh/ssh_config | it searches the file for hte matches text inside the quotes | |
+| grep  -R text directory | searches the text in the file recrusevely for the text to match from the whole directory | grep -R hello /etc |
 | wc -l| word count | |
+| locate | used to locate the file same as search in windows, first install the locate and use -i to serch regardless of the case | locate -i devops.log |
+| diff | find the difference b/w 2 files | diff text.txt text1.txt |
 
 ### User/Group administration Commands
 
@@ -124,6 +128,7 @@
 | :---: | :---: | :---: |
 | **`yum install`** | Install packages in the ***redhat/centOs*** | yum install tree |
 | **`yum install -y`** | Install packages in the ***Interactive mode in redhat/centOs*** | yum install tree -y|
+| netstat -r | 
 
 ### what are attributes in linux
 
