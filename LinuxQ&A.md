@@ -154,6 +154,12 @@ To setup the crontab we should first
 4. we are creating the cron job and gave the hello.sh file and redirected the output to hello.log file, and also specified what kind of output need to be saved in the log file i.e 2>&1 (means output and error)
 5. file descriptors : 0 --> std input; 1 --> std output; 2 --> std error
 
+## dif between curl and wget
+Curl supports multiple protocols like ***restAPI, github api, nexus api***
+
+### how to display output to the console and also redirect to the different command?
+use the tee command
+*Ex:* ls | tee teeopt.log
 
 
 
