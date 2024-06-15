@@ -1,3 +1,8 @@
+### Benfits of the linux systems?
+1. Most of the linux are free, and moreover the enterprise version is of less cost including support
+2. It is a open source
+3. It has a big security benfit over windows i,e reduced attack surface, widnows deals wiht a lot if things with bunch of the ports open and does muti tasks, but linux can only be use a specific task like FTP , only works works for file transfer and those ports are open on it 
+
 ### **What if we want to login into the server and upload and download the files from the server to the local computer?**
 We have to use the *FTP tools* to securely login into the server and upload and download the files to local computer
 *For Windows* --> WinSCP (Windows secure Copy)
@@ -161,5 +166,6 @@ Curl supports multiple protocols like ***restAPI, github api, nexus api***
 use the tee command
 *Ex:* ls | tee teeopt.log
 
-
+### To install netstat or the ifconfig what package needs to be installed
+sudo apt install net-tools
 
