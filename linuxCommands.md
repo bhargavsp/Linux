@@ -82,6 +82,35 @@
 | userdel -r username | to delete the user from server | userdel -r bob | 
 | groupdel groupname | to delete group from the server | groupdel groupname |
 
+### communication commands
+
+| command | Usage | Example command |
+| :---: | :---: | :---: |
+| wall "message" | brodcast the message from the root user to rest of all the users in the server | wall "message restart in 10min" |
+| write "message" | communicate from user to another user in the server | wall "I am uodating the cleanup file" |
+| mesg n | to disable the messages from other users to me | mesg n |
+| mesg y |  to enable the messages from other users to me | mesg y |
+| mail | to send and reads the email from server we use SMTP server and pop, pop3 servers | 
+
+### stream editor commands
+| command | Usage | Example command |
+| :---: | :---: | :---: |
+| cut -d | -d means delemeter means separator of 2 statements, here f2 is the field2 | cut -d "=" -f2 | 
+
+
+### additional commands
+| command | Usage | Example command |
+| :---: | :---: | :---: |
+| cal -3 | displays the past 3 months of the current calendar month | cal -3 |
+| cal 2024 | displays entire calendar of 2024 | | 
+| cal Apr 2020 | displays the apr month of the 2020 year | |
+| wget url | to download the 3rd paty softwares into the server | wget url |
+| curl -o outputfilename url | same as wget need to display the output file name and give the URL | | 
+| tee | display the output of the other command to the consile and also redirect to the other file, it does both the jobs | ls | tee teeopt.log |
+| script | it is used to record the list of the commands and the outputs everything and save it to the *typescript* named file (it is simillar to the screenshot in the windows, captures everything) till we enter the exit commands to stop the script | script|
+| script -a bob.txt | instead of the typescript file name we are specifying our own filename to save the script after we give the *exit* command, -a option appends the script to the same bob file | |
+
+
 ### Remote access commands
 
 | command | Usage | Example command |
