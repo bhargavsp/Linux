@@ -146,7 +146,7 @@ To edit and lock the particular, with not being giving access to the other users
 The swap memory is used when the 100% of the ram is utilized for the ram and it the swap memory is created by using our hardisk memory. swap memory standard size is basically double the ram we have for the server
 
 ### how to change or use the normal user instead of default ec2-user to connect to the ec2 instance?
-Fistly, we should login ino the ec2-user and then modify the ***passwordauthentication yes*** in the /etc/ssh/sshd_config file, so then we can login into the server with the other user credentials apart from the default ec2-user
+Fistly, we should login ino the ec2-user and then modify the ***passwordauthentication yes*** in the /etc/ssh/sshd_config file and then restart the service service sshd restart, so then we can login into the server with the other user credentials apart from the default ec2-user
 
 ### how to disable the crontab access for all the users expect the root user in server/
 1. create a file called *cron.allow* in /etc/. The server automatically detects the creation of the file and disables the access of crontabs to the users. we can add the user name to the cron.allow to give access to the particular user
