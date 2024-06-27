@@ -154,6 +154,7 @@
 | hostname name| gives the hostname of the server and aslo can change the srever name | hostname bhargav.com |
 | hostname -i | displays the public IP of the server | |
 | ifconfig/ip a | gives the IP address and some info about the server | |
+curl ifconfig.me |to check your public IP address in Linux
 | systemctl list-unit-files | list all the services are running in the linux | |
 | service servicename options| check the service and start/stop etc... | |
 | systemctl options servicename | check the service and start/stop etc... | |
