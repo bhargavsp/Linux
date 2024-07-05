@@ -97,7 +97,7 @@
 | mail | to send and reads the email from server we use SMTP server and pop, pop3 servers | 
 | telnet | to check and connect to the particular port for the domain | telnet google.com 80 |
 | dig |
-| nslook |  
+| nslookup URL | gives the server and address details  
 
 ### stream editor commands
 | command | Usage | Example command |
