@@ -96,7 +96,8 @@
 | mesg y |  to enable the messages from other users to me | mesg y |
 | mail | to send and reads the email from server we use SMTP server and pop, pop3 servers | 
 | telnet | to check and connect to the particular port for the domain | telnet google.com 80 |
-
+| dig |
+| nslook |  
 
 ### stream editor commands
 | command | Usage | Example command |
